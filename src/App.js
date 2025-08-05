@@ -25,11 +25,11 @@ function App() {
 
   return (
 <>
- <Navbar title = "newTitle" mode = {mode} toggleMode={toggleMode} />
+ <Navbar title = "TextCounter" mode = {mode} toggleMode={toggleMode} />
 
 
  <div className="container my-3" >
- <TextForm heading = "Enter your text to analyze" />
+ <TextForm heading = "This is just a practice website built using React." />
  </div>
 
 {/* <About/> */}
